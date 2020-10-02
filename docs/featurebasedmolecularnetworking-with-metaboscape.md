@@ -47,6 +47,8 @@ See a representative [FBMN job](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task
 Go to GNPS and perform a FBMN job. [Refer to that documentation](featurebasedmolecularnetworking.md). For metadata formats supported, see [this page](metadata.md)
 
 Do not forget to use the .msmsonly.csv as **feature quantification table** and the .gnps.mgf file as the **MS2 input file**.
+
+Use either the [Superquick FBMN start page](http://dorresteinappshub.ucsd.edu:5050/featurebasednetworking) or [the standard interface of the FBMN workflow](https://gnps.ucsd.edu/ProteoSAFe/index.jsp?params=%7B%22workflow%22:%22FEATURE-BASED-MOLECULAR-NETWORKING%22,%22library_on_server%22:%22d.speclibs;%22%7D).
 ![img](img/metaboscapeexportforgnps/quickstart_metaboscape.png)
 
 ### C. Map MetaboScape Annotation in Cytoscape
