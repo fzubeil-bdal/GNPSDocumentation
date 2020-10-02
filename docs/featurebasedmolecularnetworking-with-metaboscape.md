@@ -38,7 +38,7 @@ Install [MetaboScape](https://www.bruker.com/products/mass-spectrometry-and-sepa
 
 #### Processing IMS Data (PASEF)
 
-The FBMN supports Ion Mobility Spectrometry (IMS) Data acquired in data-dependent acquisition mode using Parallel Accumulation-Serial Fragmentation (PASEF) and processed with MetaboScape (ver. 5.0 or later). Process the IMS data following the MetaboScape documentation and do *Export to GNPS format* as indicated above. The cross collission section values and other annotations can be subsequently mapped in Cytoscape.
+The FBMN supports Ion Mobility Spectrometry (IMS) Data acquired in data-dependent acquisition mode using Parallel Accumulation-Serial Fragmentation (PASEF) and processed with MetaboScape (ver. 5.0 or later). Process the IMS data following the MetaboScape documentation and do *Export to GNPS format* as indicated above. The  collission cross section (CCS) values and other annotations can be subsequently mapped in Cytoscape.
 
 See a representative [FBMN job](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task=0d89db67b0974939a91cb7d5bfe87072) made from PASEF data (timsTOF Pro) processed with MetaboScape (ver. 5.0). The data files are available on the following MassIVE deposition ([MSV000084402](https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=36fea50f5e7b4a049d336f28c5884ff9&view=advanced_view))
 
