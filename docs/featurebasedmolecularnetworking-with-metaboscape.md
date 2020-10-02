@@ -29,11 +29,14 @@ Install [MetaboScape](https://www.bruker.com/products/mass-spectrometry-and-sepa
 3.	**IMPORTANT**: Create one common group named 'SAMPLE' for all the samples. It will be used for molecular networking visualization.
 4.	Once the bucket table is generated, you can use all the annotation tools provided by MetaboScape, i.e. spectral library matching or molecular formula annotation
 5.	Select Export->Export for GNPS:
-![img](img/metaboscapeexportforgnps/Export for GNPS_fullscreen.png)
-6.	Choose a directory for the output files and click “OK”:
-![img](img/metaboscapeexportforgnps/GNPS export dialog.png)
 
-10. The **MS/MS spectral summary** (.MGF file) and the **feature quantification table** (.CSV file) will be used to perform a FBMN job on GNPS (see below).
+![img](img/metaboscapeexportforgnps/Export%20for%20GNPS_fullscreen.png)
+
+6.	Choose a directory for the output files and click “OK”:
+
+![img](img/metaboscapeexportforgnps/GNPS%20export%20dialog.png)
+
+10. The **MS/MS spectral summary** (*.gnps.mgf file) and the **feature quantification table** (*.msmsonly.csv file) will be used to perform a FBMN job on GNPS (see below).
 
 #### Processing IMS Data (PASEF)
 
