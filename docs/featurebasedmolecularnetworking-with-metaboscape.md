@@ -21,9 +21,8 @@ MetaboScape can be used to process LC-MS/MS Bruker Daltonics data files (*.d or 
 **Requirements:** 
 Install [MetaboScape](https://www.bruker.com/products/mass-spectrometry-and-separations/ms-software/metaboscape/overview.html) (at least version 2.0) and get a valid license. 
 
-### A. Perform Feature Detection with Profile Analysis
+### A. Perform Feature Detection with MetaboScape
 
-#### Nontargeted LC-MS/MS
 1.	Open MetaboScape and create a new Bucket Table. If you are not familiar with this step, please follow the manual and tutorial found on the MetaboScape DVD.
 2.	Do not forget to define groups and/or attributes to enhance downstream data analysis. The groups and/or attributes defined in MetaboScape will be visualized in the molecular networks using pie chart diagram.
 3.	**IMPORTANT**: Create one common group named 'SAMPLE' for all the samples. It will be used for molecular networking visualization.
@@ -36,7 +35,7 @@ Install [MetaboScape](https://www.bruker.com/products/mass-spectrometry-and-sepa
 
 ![img](img/metaboscapeexportforgnps/GNPS%20export%20dialog.png)
 
-10. The **MS/MS spectral summary** (*.gnps.mgf file) and the **feature quantification table** (*.msmsonly.csv file) will be used to perform a FBMN job on GNPS (see below).
+10. The **MS/MS spectral summary** (.gnps.mgf file) and the **feature quantification table** (.msmsonly.csv file) will be used to perform a FBMN job on GNPS (see below).
 
 #### Processing IMS Data (PASEF)
 
@@ -48,6 +47,7 @@ See a representative [FBMN job](https://gnps.ucsd.edu/ProteoSAFe/status.jsp?task
 ### C. Perform FBMN Job on GNPS
 Go to GNPS and perform a FBMN job. [Refer to that documentation](featurebasedmolecularnetworking.md). For metadata format supported, see [this page](metadata.md)
 
+Do not forget to use the .msmsonly.csv as **feature quantification table** and the .gnps.mgf file as the **MS2 input file**.
 ![img](img/metaboscapeexportforgnps/quickstart_metaboscape.png)
 
 ### D. Map MetaboScape Annotation in Cytoscape
